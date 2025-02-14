@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NewsApplication"
+        tools:targetApi="31">
+        <activity
+            android:name=".newsSports4"
+            android:exported="false" />
+        <activity
+            android:name=".newsSports3"
+            android:exported="false" />
+        <activity
+            android:name=".newsSports2"
+            android:exported="false" />
+        <activity
+            android:name=".newsSports1"
+            android:exported="false" />
+        <activity
+            android:name=".newsLifestyle4"
+            android:exported="false" />
+        <activity
+            android:name=".newsLifestyle3"
+            android:exported="false" />
+        <activity
+            android:name=".newsLifestyle2"
+            android:exported="false" />
+        <activity
+            android:name=".newsLifestyle1"
+            android:exported="false" />
+        <activity
+            android:name=".newsPolitics4"
+            android:exported="false" />
+        <activity
+            android:name=".newsPolitics3"
+            android:exported="false" />
+        <activity
+            android:name=".newsPolitics2"
+            android:exported="false" />
+        <activity
+            android:name=".newsPolitics1"
+            android:exported="false" />
+        <activity
+            android:name=".lifestyle_layout"
+            android:exported="false" />
+        <activity
+            android:name=".account"
+            android:exported="false" />
+        <activity
+            android:name=".settings"
+            android:exported="false" />
+        <activity
+            android:name=".FAQs"
+            android:exported="false" />
+        <activity
+            android:name=".aboutus"
+            android:exported="false" />
+        <activity
+            android:name=".sports"
+            android:exported="false" />
+        <activity
+            android:name=".lifestyle"
+            android:exported="false" />
+        <activity
+            android:name=".politics"
+            android:exported="false" />
+        <activity
+            android:name=".newsTopics"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

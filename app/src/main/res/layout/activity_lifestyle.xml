@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#79BEE3"
+    tools:context=".lifestyle">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/lifestyle"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="340dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/imgLife1"
+        android:layout_width="145dp"
+        android:layout_height="145dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="75dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/life1" />
+
+    <Button
+        android:id="@+id/btnLife1"
+        android:layout_width="220dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="45dp"
+        android:backgroundTint="#79BEE3"
+        android:text="@string/lifestylecontent1"
+        android:textColor="#5D4037"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.357"
+        app:layout_constraintStart_toEndOf="@+id/imgLife1"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <ImageView
+        android:id="@+id/imgLife2"
+        android:layout_width="145dp"
+        android:layout_height="145dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgLife1"
+        app:srcCompat="@drawable/life2" />
+
+    <Button
+        android:id="@+id/btnLife2"
+        android:layout_width="220dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="45dp"
+        android:backgroundTint="#79BEE3"
+        android:text="@string/lifestylecontent2"
+        android:textColor="#5D4037"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgLife2"
+        app:layout_constraintTop_toBottomOf="@+id/btnLife1" />
+
+    <ImageView
+        android:id="@+id/imgLife3"
+        android:layout_width="145dp"
+        android:layout_height="145dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgLife2"
+        app:srcCompat="@drawable/life3" />
+
+    <Button
+        android:id="@+id/btnLife3"
+        android:layout_width="220dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="45dp"
+        android:backgroundTint="#79BEE3"
+        android:text="@string/lifestylecontent3"
+        android:textColor="#5D4037"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgLife3"
+        app:layout_constraintTop_toBottomOf="@+id/btnLife2" />
+
+    <ImageView
+        android:id="@+id/imgLife4"
+        android:layout_width="145dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgLife3"
+        app:srcCompat="@drawable/life4" />
+
+    <Button
+        android:id="@+id/btnLife4"
+        android:layout_width="220dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="35dp"
+        android:backgroundTint="#79BEE3"
+        android:text="@string/lifestylecontent4"
+        android:textColor="#5D4037"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgLife4"
+        app:layout_constraintTop_toBottomOf="@+id/btnLife3" />
+</androidx.constraintlayout.widget.ConstraintLayout>

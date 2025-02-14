@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/ic_launcher_newspaper"
+    tools:context=".MainActivity">
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="340dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/menu"
+        android:clickable="true"
+        android:contentDescription="@string/spinner"
+        android:contextClickable="true"
+        android:focusable="true"
+        android:spinnerMode="dropdown"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/appName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/header"
+            android:textAlignment="center"
+            android:textColor="#9F1010"
+            android:textSize="48sp"
+            tools:ignore="VisualLintOverlap"></TextView>
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="SpeakableTextPresentCheck">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:background="#79BEE3"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/Topics"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="70dp"
+                    android:text="@string/topic"
+                    android:textSize="24sp" />
+
+                <ImageButton
+                    android:id="@+id/btnPolitics"
+                    android:layout_width="match_parent"
+                    android:layout_height="305dp"
+                    android:layout_marginTop="20dp"
+                    app:srcCompat="@drawable/politics"
+                    tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+                <TextView
+                    android:id="@+id/txtPolitics"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/politics"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textSize="24sp"
+                    android:textStyle="normal|bold|italic"
+                    tools:ignore="TextContrastCheck" />
+
+                <ImageButton
+                    android:id="@+id/btnLifestyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="305dp"
+                    android:layout_marginTop="20dp"
+                    app:srcCompat="@drawable/lifestyle"
+                    tools:ignore="ContentDescription,ImageContrastCheck,SpeakableTextPresentCheck" />
+
+                <TextView
+                    android:id="@+id/txtLifestyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lifestyle"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textSize="24sp"
+                    android:textStyle="normal|bold|italic" />
+
+                <ImageButton
+                    android:id="@+id/btnSports"
+                    android:layout_width="match_parent"
+                    android:layout_height="305dp"
+                    android:layout_marginTop="20dp"
+                    app:srcCompat="@drawable/sports"
+                    tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+                <TextView
+                    android:id="@+id/txtSports"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Sports"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textSize="24sp"
+                    android:textStyle="normal|bold|italic" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="35dp"
+                    android:text="@string/longalong" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

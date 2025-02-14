@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#79BEE3"
+    tools:context=".politics">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/politics"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="340dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/menu"
+        android:minHeight="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/imgPol1"
+        android:layout_width="145dp"
+        android:layout_height="145dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="75dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pol1"
+        tools:ignore="ContentDescription" />
+
+    <Button
+        android:id="@+id/btnPol1"
+        android:layout_width="220dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="45dp"
+        android:backgroundTint="#79BEE3"
+        android:text="@string/politicscontent1"
+        android:textColor="#5D4037"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgPol1"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="TextSizeCheck" />
+
+    <ImageView
+        android:id="@+id/imgPol2"
+        android:layout_width="145dp"
+        android:layout_height="145dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgPol1"
+        app:srcCompat="@drawable/pol2" />
+
+    <Button
+        android:id="@+id/btnPol2"
+        android:layout_width="220dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="45dp"
+        android:backgroundTint="#79BEE3"
+        android:text="@string/politicscontent2"
+        android:textColor="#5D4037"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgPol2"
+        app:layout_constraintTop_toBottomOf="@+id/btnPol1"
+        tools:ignore="TextSizeCheck" />
+
+    <ImageView
+        android:id="@+id/imgPol3"
+        android:layout_width="145dp"
+        android:layout_height="145dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgPol2"
+        app:srcCompat="@drawable/pol3" />
+
+    <Button
+        android:id="@+id/btnPol3"
+        android:layout_width="220dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="45dp"
+        android:backgroundTint="#79BEE3"
+        android:text="@string/politicscontent3"
+        android:textColor="#5D4037"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgPol3"
+        app:layout_constraintTop_toBottomOf="@+id/btnPol2" />
+
+    <ImageView
+        android:id="@+id/imgPol4"
+        android:layout_width="145dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgPol3"
+        app:srcCompat="@drawable/pol4" />
+
+    <Button
+        android:id="@+id/btnPol4"
+        android:layout_width="220dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="45dp"
+        android:backgroundTint="#79BEE3"
+        android:text="@string/politicscontent4"
+        android:textColor="#5D4037"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgPol4"
+        app:layout_constraintTop_toBottomOf="@+id/btnPol3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

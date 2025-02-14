@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#79BEE3"
+    tools:context=".sports">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/Sports"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinner4"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="340dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/imgSports1"
+        android:layout_width="145dp"
+        android:layout_height="145dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="75dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sports1" />
+
+    <Button
+        android:id="@+id/btnSports1"
+        android:layout_width="220dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="55dp"
+        android:backgroundTint="#79BEE3"
+        android:text="@string/sportscontent1"
+        android:textColor="#5D4037"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgSports1"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <ImageView
+        android:id="@+id/imgSports2"
+        android:layout_width="145dp"
+        android:layout_height="145dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgSports1"
+        app:srcCompat="@drawable/sports2" />
+
+    <Button
+        android:id="@+id/btnSports2"
+        android:layout_width="220dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="75dp"
+        android:backgroundTint="#79BEE3"
+        android:text="@string/sportscontent2"
+        android:textColor="#5D4037"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgSports2"
+        app:layout_constraintTop_toBottomOf="@+id/btnSports1" />
+
+    <ImageView
+        android:id="@+id/imgSports3"
+        android:layout_width="145dp"
+        android:layout_height="145dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgSports2"
+        app:srcCompat="@drawable/sports3" />
+
+    <Button
+        android:id="@+id/btnSports3"
+        android:layout_width="220dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="80dp"
+        android:backgroundTint="#79BEE3"
+        android:text="@string/sportscontent3"
+        android:textColor="#5D4037"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgSports3"
+        app:layout_constraintTop_toBottomOf="@+id/btnSports2" />
+
+    <ImageView
+        android:id="@+id/imgSports4"
+        android:layout_width="145dp"
+        android:layout_height="145dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgSports3"
+        app:srcCompat="@drawable/sports4" />
+
+    <Button
+        android:id="@+id/btnSports4"
+        android:layout_width="220dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#79BEE3"
+        android:text="@string/sportscontent4"
+        android:textColor="#5D4037"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgSports4"
+        app:layout_constraintTop_toBottomOf="@+id/btnSports3" />
+</androidx.constraintlayout.widget.ConstraintLayout>

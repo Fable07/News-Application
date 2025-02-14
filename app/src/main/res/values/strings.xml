@@ -1,0 +1,267 @@
+<resources>
+    <string name="app_name">News Application</string>
+    <string name="spinner">Spinner</string>
+    <string name="login_text">Login</string>
+    <string name="username_text">Username</string>
+    <string name="password_text">Password</string>
+    <string name="forgot_text">Forgot Password?</string>
+    <string name="topic1">Politics</string>
+    <string name="topic2">Lifestyle</string>
+    <string name="topic3">Sports</string>
+    <string name="home">Home</string>
+    <string name="account">Account</string>
+    <string name="faq_s">FAQ\'s</string>
+    <string name="about_us">About us</string>
+    <string name="logout">Logout</string>
+    <string name="your_name">Your Name</string>
+    <string name="header">NovWon</string>
+    <string name="topic">Topics</string>
+    <string name="longalong"></string>
+
+
+    <string name="politicscontent1">Marcos: No need to adjust COVID-19 health status after WHO declaration</string>
+    <string name="politicscontent2">US and Papua New Guinea poised to sign defense pact as Washington, Beijing vie for influence in the Pacific</string>
+    <string name="politicscontent3">Manila court finds Bikoy guilty of perjury</string>
+    <string name="politicscontent4">Online voting eyed for overseas voters in 2025 polls: Comelec</string>
+
+    <string name="lifestylecontent1">Lifestyle changes may combat a dementia that strikes people in their 40s and 50s</string>
+    <string name="lifestylecontent2">Lifestyle changes improved cognition in people at risk for Alzheimers, study shows</string>
+    <string name="lifestylecontent3">Managing sleep, stress, nutrition for a healthy lifestyle</string>
+    <string name="lifestylecontent4">Healthy Lifestyle Benefits: 5 Tips for Living Your Strongest, Healthiest Life Yet</string>
+
+    <string name="sportscontent1">Christian Standhardinger retires from Gilas</string>
+    <string name="sportscontent2">Philippines wraps up SEA Games in 5th place</string>
+    <string name="sportscontent3">Pinay kickboxers secure two more SEA Games gold medals</string>
+    <string name="sportscontent4">Sibol beats Vietnam in ‘Wild Rift’ to win PH’s first esports gold in 32nd SEA Games</string>
+
+
+    <string name="politics">Politics</string>
+    <string name="lifestyle">Lifestyle</string>
+    <string name="Sports">Sports</string>
+
+
+    <string-array name="menu_dropdown">
+        <item>Home</item>
+        <item>Account</item>
+        <item>Settings</item>
+        <item>FAQ\'s</item>
+        <item>About us</item>
+        <item>Logout</item>
+    </string-array>
+
+    <string-array name="menu_polDown">
+        <item></item>
+        <item>Home</item>
+        <item>Account</item>
+        <item>Settings</item>
+        <item>FAQ\'s</item>
+        <item>About us</item>
+        <item>Logout</item>
+    </string-array>
+
+    <string name="polDate1">Published May 12, 2023, 12:47:37 PM\n Updated May 12, 2023, 2:57:52 PM</string>
+    <string name="polBody1">Metro Manila (May 12) — President Ferdinand Marcos Jr. said there is no need to change the country\'s COVID-19 health status after the World Health Organization (WHO) lifted the global state of public health emergency.\n \n\"We did not restore the emergency status of the Philippines. Matagal na (We did it some time ago), last year pa. So we don’t need to do anything. We are already on normal footing,\" he told reporters during his flight back to Manila on Thursday.\n \nHe also underscored that the Philippines no longer requires the presentation of COVID-19 vaccine certifications and has instead opted to use an e-pass to simplify international travel requirements.\n \nThe Inter-Agency Task Force for the Management of Emerging Infectious Diseases (IATF) is set to submit its recommendations on COVID-19 to the Office of the President next week following the WHO declaration.\n
+
+\nIn policy, the Philippines has had two proclamations regarding the viral disease: the state of public health emergency declared by former President Rodrigo Duterte in March 2020, and the state of calamity which is an executive order that lapsed last Dec. 31.\n
+
+\nThe Department of Health (DOH) on Friday said the report which the IATF will submit will include the task force’s position on the lifting of the state of public health emergency.\n
+
+\n“The DOH, along with other members of the task force, is finalizing its recommendations through a draft proclamation, including the development of a Pandemic Preparedness Plan,” its statement read.\n
+
+\nThe department on Tuesday reminded the public that the pandemic is not yet over despite the WHO declaration, saying Filipinos must remain vigilant against the virus.\n
+
+\nEarlier this week, the DOH reported an average of 1,352 daily cases, reflecting a 112% increase from April 24 to 30.</string>
+
+    <string name="polDate2">Published May 22, 2023, 1:55:04 PM</string>
+    <string name="polBody2">The United States and Papua New Guinea are poised to sign a new bilateral defense cooperation agreement – a move that has sparked controversy in the Pacific Island nation and comes as Washington and China jostle for influence in the region.\n
+
+\nUS Secretary of State Antony Blinken and Papua New Guinea (PNG) Prime Minister James Marape were scheduled to sign the pact and a maritime security agreement during Blinken’s visit to the capital Port Moresby on Sunday and Monday, the US State Department said Thursday.\n \nAdvance text of the agreements were not released by either side, but the new defense cooperation was expected to expand US access to military and other facilities in PNG, bolstering Washington’s security ties in the South Pacific.\n
+
+\nThat region – a constellation of sparsely populated island and archipelago nations and territories as well as New Zealand and Australia – has outsized strategic significance. The Pacific Islands, for example, were the site of decisive battles during World War Two.\n
+
+\nThe region has taken on renewed importance for Washington as it seeks to bolster its relationships and presence in Asia amid rising tensions with an assertive China that’s rapidly expanded its naval capabilities in recent years.\n
+
+\nThose concerns were heightened last year after Beijing signed a security pact with the Solomon Islands – and tried, but failed, to win support for a sweeping, regional trade and security communique with Pacific Island nations.\n
+
+\nBlinken’s visit to PNG comes after US President Joe Biden last week cut short an Asia trip that would have included stops in Port Moresby and Sydney, Australia, due to ongoing debt ceiling negotiations at home.</string>
+
+    <string name="polDate3">May 24, 2023, 4:59 pm</string>
+    <string name="polBody3">A Manila court has found whistleblower Peter Joemel Advincula guilty beyond reasonable doubt of the crime of perjury in connection with claims he made against three lawyers in 2019.\n
+
+\nThe Manila Metropolitan Trial Court (MTC) Branch 17, in its decision dated May 22, sentenced Advincula, who goes by the name “Bikoy,” to an indeterminate penalty of three months and one day to one year and one day of imprisonment.\n
+
+\nAdvincula was charged with perjury following the complaint of lawyers Jose Manuel I. Diokno, Theodore O. Te and Lorenzo R. Tañada III in connection with a sworn statement Bikoy submitted on July 18, 2019 before prosecutors alleging that the three civil rights lawyers were part of a group known as “Project Sodoma.”\n
+
+\nThe group, Advincula claimed, plotted to commit sedition, libel and cyber libel, among others.\n
+
+\nBikoy added that there had been a meeting at the Ateneo de Manila University (Admu) among the conspirators. Diokno and Tañada said their presence at the place was to attend a senatorial candidates forum at the time and denied meeting Advincula.\n
+
+\nThe statements became the basis for charges of sedition filed against members of the opposition, including the lawyers at the time.\n
+
+\nThe criminal charges however were dismissed by the Department of Justice on January 27,2020 with prosecutors noting that it was the accused (Bikoy) who was probably guilty of the crime of conspiracy to commit sedition.\n
+
+\n“In this case, the totality of the prosecution evidence, when put under severe testing, amounts to proof beyond reasonable doubt of the crime of perjury. The witnesses who testified for the prosecution were able to sufficiently establish the falsehood of accused’s statements,” the court said. (PNA)</string>
+
+    <string name="polDate4">May 24, 2023, 4:15 pm</string>
+    <string name="polBody4">The Commission on Elections (Comelec) said Wednesday it plans to introduce Internet voting for overseas voters in the May 2025 polls.\n
+
+\nComelec chairperson George Erwin Garcia, in an interview, said the poll body has been "deeply exploring" the details of the plan and is preparing for the allocation of a budget for the measure as a matter of policy direction.\n
+
+\nGarcia said this seeks to increase the overseas voter turnout, which only saw 34 percent in the 2022 polls, slightly higher than 31 percent in the 2019 polls.\n
+
+\nHowever, he said postal and personal modes for absentee voting would still be available in the 2025 elections.\n
+
+\n"If after the 2025 elections, we see that overseas voters patronized Internet voting and less have availed of the personal and postal voting, it is highly possible that the other two modes of voting will be phased out. If we can successfully implement Internet voting in the 2025 elections, it may eventually be the mode that will be left available," Garcia said.\n
+
+\nHe noted that Internet voting would also require fewer expenses for the government.\n
+
+\n"As we go on, overseas voting will likely require less budget," Garcia said.\n
+
+\nEarlier, the Comelec said it is looking to use the Internet mode of voting in the next national elections, to encourage more Filipinos abroad to participate in the polls.\n
+
+\nSection 28 of Republic Act 10590 states that the Commission "may explore other more efficient, reliable, and secure modes or systems, ensuring the secrecy and sanctity of the entire process, whether paper-based, electronic-based, or Internet-based technology or such other latest technology available."\n
+
+\nAside from voting in embassies and consular offices, Filipinos abroad may also avail of postal voting to be able to participate in the country’s electoral exercises.\n
+
+\nAbsentee voters elect only national positions, such as president, vice president, senators, and party-list groups.</string>
+
+    <string name="lifeDate1">Published Jan 8, 2020, 2:27:54 PM</string>
+    <string name="lifeBody1" translatable="false">Frontotemporal dementia strikes early, typically in the 50s, sometimes as young as age 45. Unlike Alzheimer\'s, it doesn\'t affect memory, instead attacking the parts of the brain which control thinking, reasoning and emotions.\n
+
+\nThe first symptom is likely a loss of interest in life and the well-being of others. A person might ignore their spouse or children\'s feelings, get uncharacteristically frustrated and say or do inappropriate things — such as laugh at a funeral.\n\nEven worse, they\'ll likely have no idea they have changed.\n
+
+\n"\It\'s a pretty devastating disease that impacts people in the prime of their lives,"\ said neurologist Kaitlin Casaletto, an assistant professor in the Memory and Aging Center at the University of California, San Francisco. \ "It's especially hard on family members who can see the changes in their loved one they themselves often can't see.\"
+
+Science has struggled to provide interventions to help these patients. Now, a new study published Wednesday suggests that lifestyle changes may help slow the disease progression.
+
+Casaletto and her colleagues followed the activity levels of 105 people with the inherited form of the disease, the first study to do so in this population. They found people who ranked highest in levels of mental and physical activity slowed their functional decline from the disease by half.
+
+"\This is an extremely important study providing the strongest evidence yet that lifestyle factors can positively impact brain health, not only for Alzheimer\'s disease, but frontotemporal lobar dementia as well,"\ said neurologist Dr. Richard Isaacson, director of the Alzheimer\'s Prevention Clinic at Weill Cornell Medicine.
+
+"\The study is even more impactful in that patients had a gene that would definitely cause dementia, but they were still able to impact cognitive decline by over 55%,"\ Isaacson said.
+
+"\It was a remarkable effect to see so early on,"\ Casaletto said. "\If this were a drug, we would be giving it to all of our patients."\</string>
+
+    <string name="lifeDate2" translatable="false">Published Oct 31, 2019, 6:23:06 AM</string>
+    <string name="lifeBody2">A new study finds personalized lifestyle interventions not only stopped cognitive decline in people at risk for Alzheimer\'s, but actually increased their memory and thinking skills within 18 months.\n
+
+\n"\Our data actually shows cognitive improvement,"\ said neurologist Dr. Richard Isaacson, founder of the Alzheimer\'s Prevention Clinic at NewYork-Presbyterian and Weill Cornell Medical Center.\n
+
+\n"\This is the first study in a real-world clinic setting showing individualized clinical management may improve cognitive function and also reduce Alzheimer\'s and cardiovascular risk,"\ Isaacson said.\n\nThe study was published Wednesday in the journal "\Alzheimer\'s and Dementia: The Journal of the Alzheimer\'s Association."\n
+
+\n"\We need more of exactly this type of clinical trial,"\ said Harvard professor of neurology Dr. Rudy Tanzi, who co-directs the Henry and Allison McCance Center for Brain Health at Massachusetts General Hospital in Boston.\n
+
+\n"\We spent so much time waiting for drug trials, but really there's a lot we can do to maintain brain health with our lifestyle,"\ said Tanzi, who was not involved in the study.\n
+
+\n"\But it\'s hard to convince the public to do that in the absence of clinical trials to tell us that sleep and diet and exercise and meditation matter,"\ he said. "\The way this study was designed and carried out is a great guide for the future."\</string>
+
+    <string name="lifeDate3">Published May 17, 2023, 10:06:35 PM</string>
+    <string name="lifeBody3">"Living a healthy lifestyle can significantly improve your physical, mental, and emotional well-being. Adopting healthy habits may seem daunting at first, but with consistency and dedication, you can achieve a healthier and happier life. Here are some tips to help you get started:\n
+Set realistic goals:\n
+Before starting your journey towards a healthier lifestyle, setting achievable goals is essential. The goals should be specific, measurable, attainable, relevant, and time-bound. For example, instead of setting a goal to lose 20 pounds weekly, aim to lose 1-2 pounds weekly for six months.\n
+Eat a balanced diet:\n
+A balanced diet is one of the most crucial aspects of a healthy lifestyle. Ensure you eat a variety of foods from all the food groups, including fruits, vegetables, lean proteins, whole grains, and healthy fats. Reduce your intake of processed and sugary foods and opt for healthier alternatives like nuts, seeds, and fruits.\n
+Stay hydrated:\n
+Drinking enough water is crucial for overall health. It helps flush out toxins, aids digestion, and maintains a healthy weight. Aim to drink at least eight glasses of water a day and reduce your intake of sugary drinks like soda and energy drinks.\n
+Exercise regularly:\n
+Regular exercise helps improve physical fitness, reduce the risk of chronic diseases, and improve mental health. Aim to get at least 150 minutes of moderate-intensity exercise or 75 minutes of vigorous-intensity exercise a week. You can incorporate different types of exercise like strength training, cardio, and flexibility training.\n
+Get enough sleep:\n
+Sleep is essential for our bodies to recharge and repair. Adults should aim to get at least 7-8 hours of sleep a night. Ensure you create a conducive sleeping environment by reducing noise and light distractions and avoiding screens before bedtime.\n
+Manage stress:\n
+Stress can have detrimental effects on our physical and mental health. Find healthy ways to manage stress like meditation, yoga, deep breathing, and spending time with loved ones.\n
+Avoid harmful habits:\n
+Harmful habits like smoking, excessive drinking,  and drug abuse can have long-lasting effects on our health. If you struggle with addiction, seek help from a professional.\n
+conclusion\n
+In conclusion, adopting a healthy lifestyle may seem daunting, but it's worth the effort. Remember to set realistic goals, eat a balanced diet, exercise regularly, get enough sleep, manage stress, avoid harmful habits, and seek help if necessary. With consistency and dedication, you can achieve a healthier and happier life."</string>
+
+    <string name="lifeDate4">March 25, 2020</string>
+    <string name="lifeBody4">"Researchers from the Harvard T.H. Chan School of Public Health conducted a massive study of the impact of health habits on life expectancy, using data from the well-known Nurses' Health Study (NHS) and the Health Professionals Follow-up Study (HPFS). This means that they had data on a huge number of people over a very long period of time. The NHS included over 78,000 women and followed them from 1980 to 2014. The HPFS included over 40,000 men and followed them from 1986 to 2014. This is over 120,000 participants, 34 years of data for women, and 28 years of data for men.
+
+\nThe researchers looked at NHS and HPFS data on diet, physical activity, body weight, smoking, and alcohol consumption that had been collected from regularly administered, validated questionnaires.
+    \nWhat is a healthy lifestyle, exactly?
+\nThese five areas were chosen because prior studies have shown them to have a large impact on risk of premature death. Here is how these healthy habits were defined and measured:
+
+\n1.   Healthy diet, which was calculated and rated based on the reported intake of healthy foods like vegetables, fruits, nuts, whole grains, healthy fats, and omega-3 fatty acids, and unhealthy foods like red and processed meats, sugar-sweetened beverages, trans fat, and sodium.
+
+\n2.  Healthy physical activity level, which was measured as at least 30 minutes per day of moderate to vigorous activity daily.
+
+\n3.   Healthy body weight, defined as a normal body mass index (BMI), which is between 18.5 and 24.9.
+
+\n4.   Smoking, well, there is no healthy amount of smoking. "Healthy" here meant never having smoked.
+
+\n5.   Moderate alcohol intake, which was measured as between 5 and 15 grams per day for women, and 5 to 30 grams per day for men. Generally, one drink contains about 14 grams of pure alcohol. That's 12 ounces of regular beer, 5 ounces of wine, or 1.5 ounces of distilled spirits.
+
+\nResearchers also looked at data on age, ethnicity, and medication use, as well as comparison data from the National Health and Nutrition Examination Surveys and the Centers for Disease Control and Prevention's Wide-Ranging Online Data for Epidemiologic Research."</string>
+
+    <string name="sportsDate1">Published May 20, 2023, 6:13:04 PM</string>
+    <string name="sportsBody1">"Christian Standhardinger announced his retirement from Gilas Pilipinas days after he helped the national team reclaim the gold in the Southeast Asian (SEA) Games men’s 5x5 basketball.
+
+The Barangay Ginebra big man bared the news in a social media post on Saturday, saying he knew that the May 16 finals in the SEA Games in Cambodia would be his last match for Gilas.
+
+Standhardinger explained that his body could no longer withstand the strain that comes with concurrently playing for his team in the PBA and for Gilas, which he joined in 2017.
+
+“The finals game marked a highly emotional day for me," he wrote. "Looking down in the Locker room 30 min before tip-off at my swollen knees, I knew that this particular game would be my last appearance for the Gilas national team, proudly wearing the blue jersey."\n
+
+\nBut the 33-year-old Filipino German player said that while he’s announcing his retirement with a heavy heart, he is also confident that Gilas is in capable hands.\n
+
+\n“As I close this chapter of my life, I leave with a sense of fulfillment and pride in contributing to the glory of Philippine basketball. I have complete faith that Gilas will continue to soar to greater heights and bring more pride to our beloved nation,” his post read.\n
+
+\nHe added that of the three gold medals he has won for the country, he considers the last one special as he secured it while surrounded by “remarkable individuals.”\n
+
+\n“My journey in the Philippines began with a SEA Games gold medal, and it seems fitting that it concludes with one as well,” he said.\n
+
+\nStandhardinger also expressed his gratitude to supporters, saying their belief in the team pushed Gilas to victory."</string>
+
+    <string name="sportsDate2">Published May 17, 2023, 10:55:54 PM</string>
+    <string name="sportsBody2">"Despite having six more gold medals this year, the Philippines slipped to fifth place in the 32nd Southeast Asian Games in Cambodia from fourth spot in the 31st edition in Vietnam.
+
+The Philippines collected 58 gold medals in the biennial meet — its biggest gold haul as a non-host country.
+
+It also grabbed 85 silver and 117 bronze medals in Phnom Penh.
+
+Vietnam topped the competition with 136 gold, 105 silver, and 114 bronze medals.
+
+Thailand followed — with Cambodia and Indonesia completing the top five.
+
+The Philippine Arnis and Taekwondo teams bagged the most gold medals with six each.
+
+Highlights of the competition include Filipino pole vaulter EJ Obiena claiming his third straight gold by clearing 5.65 meters.
+
+He broke the SEA Games record of 5.46 meters he previously set in Vietnam.
+
+Gymnast Carlos Yulo also nabbed his third straight gold after ruling the men's individual all-around event.
+
+Gilas Pilipinas, meanwhile, reclaimed its throne in men's 5x5 basketball after defeating the host nation, 80-69.
+
+Weightlifter Vanessa Sarno also delivered gold after defending her crown and breaking her own record from the previous edition of 104 kg in the snatch by one kilogram.
+
+24-year-old wushu artist Agatha Wong clinched her fifth gold medal — topping the women's taijiquan + taijijian event.
+
+The next SEA Games will take place from Dec. 9 to 20, 2025 in Thailand."</string>
+
+    <string name="sportsDate3">Published May 16, 2023, 8:28:41 PM</string>
+    <string name="sportsBody3">"Gretel De Paz and Claudine Veloso secured two more gold medals for the country after reigning supreme in kickboxing at the 32nd Southeast Asian (SEA) Games in Phnom Penh, Cambodia on Tuesday.
+
+De Paz defeated her Indonesian foe in the 56kg low kick category, while Veloso outlasted her opponent from Vietnam in the under 52kg category.
+
+Their victories delivered the Philippines' second and third gold medals in kickboxing this season, and raised the country's medal haul in the biennial meet to 58."</string>
+
+    <string name="sportsDate4">Published May 7, 2023, 11:32:23 PM</string>
+    <string name="sportsBody4">"Sibol has won the Philippines’ first esports gold medal by beating Vietnam in the League of Legends: Wild Rift event of the 32nd Southeast Asian Games in Phnom Penh, Cambodia on Sunday.
+
+The country’s national esports team outplayed Vietnam, 3-1, in the best-of-five series of the popular mobile game.
+
+Sibol’s victory was also the country’s 14th gold medal so far in this year’s biennial meet.
+
+Sibol first won gold in the 2019 SEA Games in Manila when it routed Indonesia, 3-1, in Mobile Legends: Bang Bang.
+
+The team repeated their dominant performance against Indonesia in the 31st SEA Games in Vietnam, which netted them the gold."</string>
+
+    <string name="aboutPage">Welcome to our news application Nov won is a cutting-edge platform that aims to deliver the latest news and information to users.\n
+
+\nWe care about sharing events and stories that have a big impact on our society and the world. Our goal is to provide real news and analysis with integrity and objectivity.\n
+
+\nWe aim to provide our readers with a complete picture of world events, with a wide range from national to global events.</string>
+
+
+</resources>

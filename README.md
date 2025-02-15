@@ -1,4 +1,4 @@
-# Android Studio Setup & Running a Kotlin Project
+# Android Studio Setup & Running a Kotlin Project(News Application)
 
 ## Prerequisites
 | Requirement | Minimum | Recommended |
